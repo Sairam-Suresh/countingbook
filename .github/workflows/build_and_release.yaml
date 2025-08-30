@@ -7,7 +7,7 @@ on:
 
 jobs:
     build_app:
-      runs-on: ubuntu_latest
+      runs-on: ubuntu-latest
       steps:
       - id: s01
         run: echo "github ${{ github.ref_name }}"
